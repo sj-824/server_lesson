@@ -1,0 +1,117 @@
+    1  ls
+    2  ls 
+    3  ls /
+    4  pwd
+    5  cd /vagrant 
+    6  pwd
+    7  cs usr
+    8  cd usr
+    9  cd /ust
+   10  cd /usr
+   11  cd /vagrant
+   12  mkdir server_lesson && cd server_lesson
+   13  git init
+   14  git --version
+   15  exit
+   16  cd /vagrant/server_lesson
+   17  sudo yum -y install git
+   18  git --version
+   19  git init
+   20  touch first.txt
+   21  cd /vagrant
+   22  mkdir server_lesson/linux_practice/public
+   23  mkdir -p server_lesson/linux_practice/public
+   24  ls
+   25  ls server_lesson server_lesson/linux_practice
+   26  cd /vagrant
+   27  touch server_lesson/linux_practice/public/index.php
+   28  ls server_lesson/linux_practice/public
+   29  cd /vagrant/server_lesson && ls
+   30  cd /vagrant/server_lesson/linux_pracitce/public
+   31  cd /vagrant/server_lesson/linux_practice/public
+   32  cp index.php index_bk.php
+   33  ls
+   34  cd /vagrant/server_lesson/linux_practice
+   35  cp -r public tmp
+   36  ls ./ public tmp
+   37  cd /vagrant
+   38  mv server_lesson/linux_practice server_lesson/linux_practice1
+   39  mkdir linux_practice2 linux_practice3
+   40  mv ./linux_practice2 ./server_lesson
+   41  cd /vagrant/server_lesson/linux_practice1/tmp/
+   42  rm *_bk.php
+   43  ls
+   44  cd /vagrant
+   45  rm server_lesson/first.txt
+   46  rm -r linux_practice3
+   47  ls
+   48  ls server_lesson
+   49  cd /vagrant/server_lesson
+   50  echo '# サーバレッスン' > README.md
+   51  echo 'Linuxプラクティス' >> README.md
+   52  echo '____________' >> README.md
+   53  cat README.md
+   54  vi README.md
+   55  cat README.md
+   56  tree
+   57  ls
+   58  sudo yum install tree
+   59  tree
+   60  ls -a
+   61  git add .
+   62  git commit -m 'first commit'
+   63  git remote add origin https://github.com/sj-824/server_lesson.git
+   64  git remote -v
+   65  git push origin master
+   66  mkdir linux_practice2/documents
+   67  tree
+   68  touch linux_practice2/documents/gizumo{01..50}.md
+   69  tree
+   70  mkdir linux_practice2/trash
+   71  touch linux_practice2/.gitignore
+   72  tree
+   73  tree -a
+   74  git status
+   75  vi linux_practice2/.gitignore
+   76  git status --ignored
+   77  git ls-files --other --ignored --exclude-standard
+   78  git ls-files --others --exclude-standard
+   79  vi linux_practice2/.gitignore
+   80  git ls-files --other --ignored --exclude-standard
+   81  vi linux_practice2/.gitignore
+   82  git ls-files --other --ignored --exclude-standard
+   83  vi linux_practice2/.gitignore
+   84  git ls-files --other --ignored --exclude-standard
+   85  git status --ignore
+   86  git status --ignored
+   87  vi linux_practice2/.gitignore
+   88  git ls-files --other --ignored --exclude-standard
+   89  tree
+   90  tree -a
+   91  vi linux_practice2/.gitignore
+   92  git ls-files --other --ignored --exclude-standard
+   93  vi linux_practice2/.gitignore
+   94  git ls-files --other --ignored --exclude-standard
+   95  git status
+   96  git status linux_practice2
+   97  git status linux_practice2/documents
+   98  git status
+   99  vi linux_practice2/.gitignore
+  100  mv linux_practice2/documents/gizumo{20..40}.md linux_practice2/trash
+  101  tree
+  102  git ls-files --other --ignored --exclude-standard
+  103  git ls-files
+  104  git ls-files --other --exclude-standard
+  105  vi linux_practice2/.gitignore
+  106  git ls-files --other --ignored --exclude-standard
+  107  tree
+  108  vi linux_practice2/.gitignore
+  109  git ls-files --other --ignored --exclude-standard
+  110  vi linux_practice2/.gitignore
+  111  git ls-files --other --ignored --exclude-standard
+  112  vi linux_practice2/.gitignore
+  113  git ls-files --other --ignored --exclude-standard
+  114  vi linux_practice2/.gitignore
+  115  git ls-files --other --ignored --exclude-standard
+  116  history300 > linux_practice2/exec_command.log
+  117  history 300 > linux_practice2/exec_command.log
